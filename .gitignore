@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+app/release/
+
+# offline apk demo build outputs
+tools/offline-apk-demo/out/
+tools/offline-apk-demo/*.apk*
+tools/offline-apk-demo/*.keystore
