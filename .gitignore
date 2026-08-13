@@ -14,3 +14,7 @@ app/release/
 tools/offline-apk-demo/out/
 tools/offline-apk-demo/*.apk*
 tools/offline-apk-demo/*.keystore
+
+# ai-os kernel build outputs
+os/build/
+os/iso/boot/kernel.elf
