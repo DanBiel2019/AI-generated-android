@@ -35,7 +35,7 @@ data class UserProfile(
                 "Gene Kim",
                 "Stephen R. Covey",
                 "Warren Berger",
-                "John C. Maxwell"
+                "Simon Sinek"
             ),
             topics = listOf(
                 "Business & Entrepreneurship",

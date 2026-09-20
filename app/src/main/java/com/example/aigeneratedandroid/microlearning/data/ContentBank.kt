@@ -373,18 +373,22 @@ object ContentBank {
         ),
         IdeaCard(
             id = "lead-04",
-            title = "Everything Is Capped by the Leader",
-            insight = "John Maxwell's Law of the Lid claims that an organization's effectiveness is capped by its leadership ability, not by its talent, budget, or opportunity. Two teams with identical resources will hit very different ceilings depending purely on how well they're led. Raising the lid, meaning investing in leadership skill itself, tends to raise every other number in the organization at once.",
-            sourceName = "The 21 Irrefutable Laws of Leadership",
-            author = "John C. Maxwell",
+            title = "People Don't Buy What You Do",
+            insight = "Simon Sinek's golden circle argues that most organizations communicate from the outside in, leading with what they do, then how, and rarely getting to why. The ones that inspire real loyalty flip that order, starting with the purpose behind the work, because people don't buy what you do, they buy why you do it. A team that can state its why in one sentence makes faster, more aligned decisions than one arguing over the what.",
+            sourceName = "Start With Why",
+            author = "Simon Sinek",
             format = SourceFormat.BOOK,
             topic = TOPIC_LEADERSHIP,
             style = LearningStyle.BIG_PICTURE,
             readTimeSeconds = 29,
             asciiArt = """
-                talent, budget, tools  -----> capped by -----> leadership lid
+                     .-------.
+                    ( WHY     )   <- start here
+                   (  HOW      )
+                  (   WHAT      )
+                   '-----------'
             """.trimIndent(),
-            challenge = "Name one skill that, if you personally improved it, would raise the ceiling for your whole team."
+            challenge = "Write one sentence explaining why your current project matters, not what it does or how it works."
         ),
         IdeaCard(
             id = "lead-05",
