@@ -6,7 +6,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AIGeneratedAndroid">
         <activity
-            android:name=".MainActivity"
+            android:name=".microlearning.ui.DailyFeedActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

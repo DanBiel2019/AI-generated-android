@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AI-generated-android</string>
-    <string name="hello_message">Hello, AI-generated Android!</string>
+    <string name="feed_header_format">📅 %1$s — Your Daily Microlearning Feed</string>
+    <string name="card_progress_format">%1$d / %2$d</string>
+    <string name="card_meta_format">%1$s · %2$s · ~%3$ds</string>
+    <string name="summary_theme_format">📊 Today\'s Theme: %1$s</string>
+    <string name="summary_challenge_format">🎯 Challenge: %1$s</string>
+    <string name="summary_count_format">You covered %1$d ideas today</string>
 </resources>
